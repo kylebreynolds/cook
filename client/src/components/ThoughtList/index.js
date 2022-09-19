@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import CssBaseline from "@mui/material/CssBaseline";
+
 
 const ThoughtList = ({ thoughts, title }) => {
   if (!thoughts.length) {
